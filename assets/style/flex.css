@@ -18,6 +18,10 @@
     gap: 10px;
 }
 
+.destaques__barra{
+    flex-grow: 1;   /* Permite que a barra acompanhe o tamanho do container */
+}
+
 @media(min-width: 720px) {
     .menu {
         column-gap: 75px;
